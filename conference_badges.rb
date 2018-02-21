@@ -25,4 +25,5 @@ def printer(attendees)
  batch_and_room.each { |line|
   puts line.chomp
  }
+ batch_and_room
 end
