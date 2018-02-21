@@ -23,5 +23,5 @@ def printer
 room_assignments.each do |room|
   puts room
 end
-  badges
+puts  badges
 end
