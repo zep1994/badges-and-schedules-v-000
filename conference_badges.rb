@@ -24,5 +24,7 @@ def printer(attendees)
 badges.each { |line|
 batch_and_room_assignments << puts line.chomp
 }
-room_assignments
+room_assignments.each { |line|
+batch_and_room_assignments << puts line.chomp
+}
 end
