@@ -23,6 +23,6 @@ def printer(attendees)
  batch_and_room = []
  batch_and_room << batch_badge_creator(attendees) + assign_rooms
  batch_and_room.each { |line|
-   line.chomp
+  puts line.chomp
  }
 end
