@@ -20,10 +20,5 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
- batch_and_room = []
- batch_and_room << batch_badge_creator(attendees) + assign_rooms
- batch_and_room.each { |line|
-  puts line.chomp
- }
- batch_and_room
+batch_badge_creator
 end
