@@ -27,5 +27,6 @@ badges.each { |line|
 room_assignments.each { |line|
  puts line.chomp
 }
+batch_and_room_assignments << badges + room_assignments
 batch_and_room_assignments
 end
